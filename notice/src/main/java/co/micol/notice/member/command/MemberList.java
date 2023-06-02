@@ -20,7 +20,7 @@ public class MemberList implements Command {
 		List<MemberVO> members = new ArrayList<>();
 		members = ms.memberSelectList();
 		
-		request.setAttribute("members", members);
+		request.setAttribute("members", members); //"변수명", "값"
 		return "member/memberList";
 	}
 
