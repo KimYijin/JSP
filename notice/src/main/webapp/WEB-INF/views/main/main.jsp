@@ -9,7 +9,8 @@
 <body>
 	<div align = "center">
 		<h1>Welcome to My Home</h1>
-		<a href = "noticeList.do">게시글 목록</a>
+		<a href = "noticeList.do">게시글 목록</a><br>
+		<a href = "memberList.do">멤버 목록 보기</a> <!-- frontController에 가서 등록해야함 -->
 	</div>
 </body>
 </html>
