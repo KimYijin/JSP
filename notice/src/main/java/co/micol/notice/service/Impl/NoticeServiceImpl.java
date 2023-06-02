@@ -19,7 +19,7 @@ public class NoticeServiceImpl implements NoticeService {
 	
 	@Override
 	public List<NoticeVO> noticeSelcetList() {
-		String sql = "SELECT * FROM NOTICE";
+		String sql = "SELECT * FROM NOTICE order by notice_id";
 		List<NoticeVO> notices = new ArrayList<NoticeVO>();
 		NoticeVO vo;
 		try {
