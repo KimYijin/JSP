@@ -9,6 +9,9 @@
 </head>
 <body>
 <div align = "center">
+	<div>
+		<jsp:include page="../main/menu.jsp"></jsp:include>
+	</div>
 	<div><h1>게시글 목록</h1></div>
 	<div>
 		<c:forEach items = "${notices }" var = "n">
