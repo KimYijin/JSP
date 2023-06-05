@@ -65,6 +65,9 @@
 			</div>
 		</form>
 	</div>
+	<div>
+		<jsp:include page="../main/footer.jsp"></jsp:include>
+	</div>
 </div>
 <script type="text/javascript">
 	function formCheck(){

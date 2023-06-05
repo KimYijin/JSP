@@ -20,6 +20,9 @@
 		<a href = "memberLoginForm.do">로그인</a><br> 
 		 -->
 		
+		<div>
+			<jsp:include page="footer.jsp"></jsp:include>
+		</div>
 	</div>
 </body>
 </html>
