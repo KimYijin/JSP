@@ -7,6 +7,11 @@
 	<select id="memberSelect" resultType="co.micol.notice.member.service.MemberVO">
 		SELECT * FROM member
 		WHERE member_id = #{memberId}
+		<!-- 
+		<if test="memberPassword != null">
+			AND member_password = #{memberPassword}
+		</if>
+		-->
 	</select>
 	<insert id="memberInsert">
 		INSERT INTO MEMBER

@@ -8,6 +8,7 @@
 </head>
 <body>
 	<div align="center">
+		<jsp:include page="../main/menu.jsp"></jsp:include>
 		<div>
 			<h1>로 그 인</h1>
 		</div>
